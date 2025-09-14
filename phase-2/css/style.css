@@ -27,12 +27,17 @@ aside,
         align-items: center;
         background: #f5f5f5;
     }
-    nav {
+    .site-nav {
         display: flex;
         width: 100%;
     }
     .site-main {
         display: flex;
         width: 960px;
+    }
+    .site-footer {
+        display: flex;
+        width: 100%;
+        background: #f5f5f5;
     }
 }
