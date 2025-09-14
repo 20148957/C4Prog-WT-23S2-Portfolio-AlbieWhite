@@ -16,7 +16,7 @@
     text-align: left;
 }
 aside,
-nav {
+.site-nav {
     display: none;
 }
 @media (min-width: 768px) {
@@ -30,5 +30,9 @@ nav {
     nav {
         display: flex;
         width: 100%;
+    }
+    .site-main {
+        display: flex;
+        width: 960px;
     }
 }
