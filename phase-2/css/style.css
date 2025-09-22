@@ -51,4 +51,7 @@ aside,
     .articles{
         width: 100%;
     }
+    .hamburger{
+        display: none;
+    }
 }
