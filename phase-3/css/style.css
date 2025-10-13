@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f5f5f5;
+    background: #5765b6;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -17,13 +17,14 @@
 .site-footer {
     display: flex;
     width: 100%;
-    background: #f5f5f5;
+    background: #8b54af;
     text-align: left;
     justify-content: space-between;
 }
 .articles {
     width: 67%;
     flex: 2;
+    background: #54a6af;
 }
 aside,
 .site-nav {
@@ -33,12 +34,14 @@ aside,
 a:link{
     text-decoration: none;
 }
+.site-nav{
+    background: #FFFFFF;
+}
 @media (min-width: 768px) {
     .site-header {
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        background: #f5f5f5;
     }
     .site-nav{
         display: flex;
