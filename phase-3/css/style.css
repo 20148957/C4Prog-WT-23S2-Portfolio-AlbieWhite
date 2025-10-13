@@ -36,6 +36,7 @@ a:link{
 }
 .site-nav{
     background: #FFFFFF;
+    z-index: 9;
 }
 @media (min-width: 768px) {
     .site-header {
