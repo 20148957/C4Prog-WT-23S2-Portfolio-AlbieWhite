@@ -53,9 +53,9 @@ a:link{
     }
     .site-main {
         display: flex;
-        width: 960px;
         flex-direction: row;
         margin: 0 auto;
+        width: fit-content;
     }
     .sidebar {
         width: 33%;
@@ -68,5 +68,21 @@ a:link{
     }
     .hamburger{
         display: none;
+    }
+    .aside-image-1{
+        width: 200px;
+        height: auto;
+    }
+    .article-image-1{
+        width: 400px;
+        height: auto;
+    }
+    .article-image-2{
+        width: 400px;
+        height: auto;
+    }
+    .article-image-3{
+        width: 400px;
+        height: auto;
     }
 }
