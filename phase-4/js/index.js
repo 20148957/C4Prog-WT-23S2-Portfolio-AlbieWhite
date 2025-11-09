@@ -61,4 +61,4 @@ form.addEventListener("submit", function(event) {
         .catch(function(error) {
             responseArea.textContent = "Error: " + error.message;
         });
-    })
+    });
