@@ -275,11 +275,28 @@
                     shaking the heck out of the machine. So much for teaching people to handle
                     their computers with care!"
                 </p>
+
             </section>
             <footer>
                 Content is provided with permission from APC Magazine (TechRadar.com) for the
                 purposes of education and training. Content is Copyright 2007 APC Magazine.
             </footer>
+                <section>
+                    <h3>Ninja API App</h3>
+
+                    <form id="ninjaForm">
+                        <fieldset>
+                            <legend>Pick from the following API's</legend>
+                            <label><input type="checkbox" id="1" value="quotes" onclick="checkIfOne(this.id)"> Quotes</label>
+                            <label><input type="checkbox" id="2" value="jokes" onclick="checkIfOne(this.id)"> Jokes</label>
+                        </fieldset>
+
+                        <input type="text" id="userInput">
+                        <button type="submit">Get Response</button>
+                    </form>
+
+                    <div id="responseArea">Results will appear here...</div>
+                </section>
         </article>
             <article>
             <header>
@@ -519,5 +536,6 @@
             <a href="">Instructions</a>
         </nav>
     </footer>
+<script src="js/index.js"></script>
 </body>
 </html>
