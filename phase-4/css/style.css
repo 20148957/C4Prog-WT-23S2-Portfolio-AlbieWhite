@@ -54,6 +54,25 @@ a:link{
     width: 400px;
     height: auto;
 }
+.api-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+.api-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.api-button:hover{
+    background-color: #8b54af;
+}
+.api-response{
+    background-color: #FFFFFF;
+    text-align: center;
+}
 @media (min-width: 768px) {
     .site-header {
         width: 100%;
