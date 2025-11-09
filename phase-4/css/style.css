@@ -38,6 +38,22 @@ a:link{
     background: #FFFFFF;
     z-index: 9;
 }
+.aside-image-1{
+    width: 200px;
+    height: auto;
+}
+.article-image-1{
+    width: 400px;
+    height: auto;
+}
+.article-image-2{
+    width: 400px;
+    height: auto;
+}
+.article-image-3{
+    width: 400px;
+    height: auto;
+}
 @media (min-width: 768px) {
     .site-header {
         width: 100%;
@@ -68,21 +84,5 @@ a:link{
     }
     .hamburger{
         display: none;
-    }
-    .aside-image-1{
-        width: 200px;
-        height: auto;
-    }
-    .article-image-1{
-        width: 400px;
-        height: auto;
-    }
-    .article-image-2{
-        width: 400px;
-        height: auto;
-    }
-    .article-image-3{
-        width: 400px;
-        height: auto;
     }
 }
