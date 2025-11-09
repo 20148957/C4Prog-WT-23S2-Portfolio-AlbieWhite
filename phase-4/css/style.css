@@ -1,0 +1,88 @@
+.site-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5765b6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.site-main {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    gap: 20px;
+}
+.site-footer {
+    display: flex;
+    width: 100%;
+    background: #8b54af;
+    text-align: left;
+    justify-content: space-between;
+}
+.articles {
+    width: 67%;
+    flex: 2;
+    background: #54a6af;
+}
+aside,
+.site-nav {
+    display: none;
+    position: sticky;
+}
+a:link{
+    text-decoration: none;
+}
+.site-nav{
+    background: #FFFFFF;
+    z-index: 9;
+}
+@media (min-width: 768px) {
+    .site-header {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .site-nav{
+        display: flex;
+        width: 100%;
+        position: sticky;
+        top: 80px;
+        gap: 20px;
+    }
+    .site-main {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .sidebar {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .articles{
+        width: 100%;
+    }
+    .hamburger{
+        display: none;
+    }
+    .aside-image-1{
+        width: 200px;
+        height: auto;
+    }
+    .article-image-1{
+        width: 400px;
+        height: auto;
+    }
+    .article-image-2{
+        width: 400px;
+        height: auto;
+    }
+    .article-image-3{
+        width: 400px;
+        height: auto;
+    }
+}
